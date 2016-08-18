@@ -12,6 +12,9 @@
 		534D9E731CDD5E8D003A61EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534D9E711CDD5E8D003A61EA /* Main.storyboard */; };
 		534D9E751CDD5E8D003A61EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534D9E741CDD5E8D003A61EA /* Assets.xcassets */; };
 		534D9E781CDD5E8D003A61EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534D9E761CDD5E8D003A61EA /* LaunchScreen.storyboard */; };
+		53E453CD1CDD6347001140EB /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E453CC1CDD6347001140EB /* Character.swift */; };
+		53E453CF1CDD64C6001140EB /* Orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E453CE1CDD64C6001140EB /* Orc.swift */; };
+		53E453D11CDD65A9001140EB /* Centurion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E453D01CDD65A9001140EB /* Centurion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		534D9E741CDD5E8D003A61EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		534D9E771CDD5E8D003A61EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		534D9E791CDD5E8D003A61EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53E453CC1CDD6347001140EB /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		53E453CE1CDD64C6001140EB /* Orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orc.swift; sourceTree = "<group>"; };
+		53E453D01CDD65A9001140EB /* Centurion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Centurion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				534D9E741CDD5E8D003A61EA /* Assets.xcassets */,
 				534D9E761CDD5E8D003A61EA /* LaunchScreen.storyboard */,
 				534D9E791CDD5E8D003A61EA /* Info.plist */,
+				53E453CC1CDD6347001140EB /* Character.swift */,
+				53E453CE1CDD64C6001140EB /* Orc.swift */,
+				53E453D01CDD65A9001140EB /* Centurion.swift */,
 			);
 			path = battlegrounds;
 			sourceTree = "<group>";
@@ -136,6 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E453CF1CDD64C6001140EB /* Orc.swift in Sources */,
+				53E453CD1CDD6347001140EB /* Character.swift in Sources */,
+				53E453D11CDD65A9001140EB /* Centurion.swift in Sources */,
 				534D9E701CDD5E8D003A61EA /* ViewController.swift in Sources */,
 				534D9E6E1CDD5E8D003A61EA /* AppDelegate.swift in Sources */,
 			);
@@ -289,6 +301,7 @@
 				534D9E7E1CDD5E8D003A61EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
